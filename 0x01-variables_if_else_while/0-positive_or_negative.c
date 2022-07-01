@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
 *main -> assign a random no to the var n each time it is executed
 *based a condition
@@ -10,7 +9,6 @@
 int main(void)
 {
 int n;
-
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
