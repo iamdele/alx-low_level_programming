@@ -4,7 +4,7 @@
 /**
 *main -> assign a random no to the var n each time it is executed
 *based a condition
-*Return : always 0
+*Return: always 0
 */
 int main(void)
 {
